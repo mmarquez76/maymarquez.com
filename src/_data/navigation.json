@@ -7,11 +7,21 @@
     },
     {
       "text": "GitHub",
-      "url": "https://github.com/hankchizljaw/hylia",
+      "url": "https://github.com/mmarquez76",
       "external": true
     },
     {
-      "text": "Example Contact Page",
+      "text": "GitLab",
+      "url": "https://gitlab.com/mmarquez76",
+      "external": true
+    },
+    {
+      "text": "LinkedIn",
+      "url": "https://www.linkedin.com/in/mmarquez78/",
+      "external": true
+    },
+    {
+      "text": "Contact Me",
       "url": "/contact",
       "external": false
     }
