@@ -7,23 +7,23 @@ permalink: '/feed.xml'
 	<subtitle></subtitle>
 	<link href="{{ site.url }}{{ permalink }}" rel="self"/>
 	<link href="{{ site.url }}/"/>
-	{% if collections.posts|length %}
-	<updated>{{ collections.posts | rssLastUpdatedDate }}</updated>
+	{% if collections.projects|length %}
+	<updated>{{ collections.projects | rssLastUpdatedDate }}</updated>
 	{% endif %}
 	<id>{{ site.url }}</id>
 	<author>
   <name>{{ site.authorName }}</name>
   <email>{{ site.authorEmail }}</email>
 	</author>
-	{% for post in collections.posts %}
-  {% set absolutePostUrl %}{{ site.url }}{{ post.url | url }}{% endset %}
+	{% for project in collections.projects %}
+  {% set absoluteProjectUrl %}{{ site.url }}{{ project.url | url }}{% endset %}
   <entry>
-    <title>{{ post.data.title }}</title>
-    <link href="{{ absolutePostUrl }}"/>
-    <updated>{{ post.date | rssDate }}</updated>
-    <id>{{ absolutePostUrl }}</id>
+    <title>{{ project.data.title }}</title>
+    <link href="{{ absoluteProjectUrl }}"/>
+    <updated>{{ project.date | rssDate }}</updated>
+    <id>{{ absoluteProjectUrl }}</id>
     <content type="html"><![CDATA[
-      {{ post.templateContent | safe }}
+      {{ project.templateContent | safe }}
     ]]></content>
   </entry>
 	{% endfor %}

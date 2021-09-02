@@ -39,17 +39,17 @@ module.exports = function(config) {
   const now = new Date();
 
   // Custom collections
-  const livePosts = post => post.date <= now && !post.data.draft;
-  config.addCollection('posts', collection => {
+  const liveProjects = project => project.date <= now && !project.data.draft;
+  config.addCollection('projects', collection => {
     return [
-      ...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)
+      ...collection.getFilteredByGlob('./src/projects/*.md').filter(liveProjects)
     ].reverse();
   });
 
-  config.addCollection('postFeed', collection => {
-    return [...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)]
+  config.addCollection('projectFeed', collection => {
+    return [...collection.getFilteredByGlob('./src/projects/*.md').filter(liveProjects)]
       .reverse()
-      .slice(0, site.maxPostsPerPage);
+      .slice(0, site.maxProjectsPerPage);
   });
 
   // Plugins

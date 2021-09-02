@@ -21,17 +21,17 @@ const Home = ({ entry }) => (
   <Preview
     entry={entry}
     path="layouts/home.njk"
-    context={({ title, body, postsHeading, archiveButtonText }) => ({
+    context={({ title, body, projectsHeading, projectsButtonText }) => ({
       title,
       content: markdownFilter(body),
-      postsHeading,
-      archiveButtonText,
+      projectsHeading,
+      projectsButtonText,
       collections: {
-        postFeed: [{
+        projectFeed: [{
           url: 'javascript:void(0)',
           date: new Date(),
           data: {
-            title: 'Sample Post',
+            title: 'Sample Project',
           },
         }],
       },
@@ -39,10 +39,10 @@ const Home = ({ entry }) => (
   />
 );
 
-const Post = ({ entry }) => (
+const Project = ({ entry }) => (
   <Preview
     entry={entry}
-    path="layouts/post.njk"
+    path="layouts/project.njk"
     context={({ title, date, body }) => ({
       title,
       date,
@@ -89,7 +89,7 @@ const Nav = ({ entry }) => (
 );
 
 CMS.registerPreviewTemplate('home', Home);
-CMS.registerPreviewTemplate('posts', Post);
+CMS.registerPreviewTemplate('projects', project);
 CMS.registerPreviewTemplate('generic_pages', Page);
 CMS.registerPreviewTemplate('site_data', SiteData);
 CMS.registerPreviewTemplate('nav', Nav);

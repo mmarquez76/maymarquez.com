@@ -6,20 +6,20 @@
   {{ content | safe }}
 {% endset %}
 
-{# Post list content #}
-{% set postListHeading = postsHeading %}
-{% set postListItems = collections.postFeed %}
+{# Project list content #}
+{% set projectListHeading = projectsHeading %}
+{% set projectListItems = collections.projectFeed %}
 
-{# Archive link #}
-{% if postListItems.length < collections.posts.length %} 
-  {% set paginationNextText = archiveButtonText %}
-  {% set paginationNextUrl = '/archive' %}
+{# Projects link #}
+{% if projectListItems.length < collections.projects.length %} 
+  {% set paginationNextText = projectsButtonText %}
+  {% set paginationNextUrl = '/projects' %}
 {% endif %}
 
 {% block content %}
   <main id="main-content" tabindex="-1">
     {% include "partials/components/intro.njk" %}
-    {% include "partials/components/post-list.njk" %}
+    {% include "partials/components/project-list.njk" %}
     {% include "partials/components/pagination.njk" %}
   </main>
 {% endblock %}

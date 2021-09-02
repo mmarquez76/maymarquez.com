@@ -7,10 +7,10 @@ pagination:
   filter:
     - all
     - nav
-    - post
-    - posts
+    - project
+    - projects
     - tagList
-    - postFeed
+    - projectFeed
   addAllPagesToCollections: true
 permalink: /tags/{{ tag }}/
 ---
@@ -18,18 +18,18 @@ permalink: /tags/{{ tag }}/
 {% extends 'layouts/base.njk' %}
 
 {# Intro content #}
-{% set introHeading %}Posts filed under “{{ tag }}”{% endset %}
+{% set introHeading %}Projects filed under “{{ tag }}”{% endset %}
 {% set introHeadingLevel = '2' %}
 
-{# Post list content #}
-{% set postListHeadingLevel = '2' %}
-{% set postListHeading = 'Posts' %}
-{% set postListItems = collections[tag] %}
+{# Project list content #}
+{% set projectListHeadingLevel = '2' %}
+{% set projectListHeading = 'Projects' %}
+{% set projectListItems = collections[tag] %}
 
 {% block content %}
   <main id="main-content" tabindex="-1">
     {% include "partials/components/intro.njk" %}
-    {% include "partials/components/post-list.njk" %}
+    {% include "partials/components/project-list.njk" %}
     {% include "partials/components/pagination.njk" %}
   </main>
 {% endblock %}

@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/project.njk
 title: Airline Data Processor
 date: 2021-09-02T13:21:25.685Z
 tags:

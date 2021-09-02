@@ -10,13 +10,13 @@
     height: 100%;
   }
 
-  // If it’s bleeding out in a post, it needs more padding
-  .post & {
+  // If it’s bleeding out in a project, it needs more padding
+  .project & {
     padding-top: 63%;
   }
 
   @include media-query('md') {
-    .post & {
+    .project & {
       padding-top: 66%;
     }
   }
