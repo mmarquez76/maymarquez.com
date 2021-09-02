@@ -4,13 +4,14 @@ title: Astrology Clock
 metaTitle: Astrology Clock
 metaDesc: How the clock was made.
 socialImage: /images/astrology-clock.png
-date: 2021-09-02T15:32:35.122Z
+date: 2021-01-18T16:32:35.122Z
 tags:
   - astrology
   - clock
-  - projects
   - javascript
   - html5
+  - blog
+  - projects
 ---
 One of my first projects, [Astrology Clock](https://astrologyclock.net/), was inspired by my partner, who turns to astrology to help understand the confusing parts of life. My goal was to design a clock that showed the positions of astrological bodies in the zodiac in a regular web page, and then create a hardware clock, powered by a Raspberry Pi, that displayed the clock 24/7. Finally, I would give the clock as a surprise housewarming gift when we moved in together. *The perfect master plan for a girl with way too much time on her hands.*
 
