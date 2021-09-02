@@ -4,8 +4,8 @@ title: May Márquez is a developer.
 metaTitle: May Márquez is a developer.
 metaDesc: She specializes in optimization problems, parallel computing, and
   snazzy websites like these.
-postsHeading: Latest posts
-archiveButtonText: See all posts
+postsHeading: Projects
+archiveButtonText: See all projects
 socialImage: /images/favicon.png
 ---
 She specializes in backend optimization problems, parallel computing, and snazzy websites like these. She has a master's degree in computer science from Florida International University. She's proficient in a few different programming languages and frameworks (including, [unfortunately,](https://www.destroyallsoftware.com/talks/wat) JavaScript). She was the president of the Mu chapter of Upsilon Pi Epsilon for a year, leading *ShellHacks*, Florida's Largest Hackathon, and she's hosted a few workshops on GitHub. She's helped raise over $90,000 for COVID-19 relief and children with disabilities through [various](https://scrap.tf/titaniumtank) [fundraisers.](https://wiki.teamfortress.com/wiki/Operation_Madness_vs_Machines#Charity) 
