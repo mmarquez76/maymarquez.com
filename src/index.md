@@ -1,12 +1,15 @@
 ---
 layout: home
-title: A simple starter kit for Eleventy
-postsHeading: Latest posts
-archiveButtonText: See all posts
-metaDesc: 'Hylia is a lightweight Eleventy starter kit to help you to create your own blog or personal website.'
-socialImage: ''
+title: May Márquez is a developer.
+metaTitle: May Márquez is a developer.
+metaDesc: She specializes in optimization problems, parallel computing, and
+  snazzy websites like these.
+postsHeading: Projects
+archiveButtonText: See all projects
+socialImage: /images/favicon.png
 ---
+She specializes in backend optimization problems, parallel computing, and snazzy websites like these. She has a master's degree in computer science from Florida International University. She's proficient in a few different programming languages and frameworks (including, [unfortunately,](https://www.destroyallsoftware.com/talks/wat) JavaScript). She was the president of the Mu chapter of Upsilon Pi Epsilon for a year, leading *ShellHacks*, Florida's Largest Hackathon, and she's hosted a few workshops on GitHub. She's helped raise over $90,000 for COVID-19 relief and children with disabilities through [various](https://scrap.tf/titaniumtank) [fundraisers.](https://wiki.teamfortress.com/wiki/Operation_Madness_vs_Machines#Charity) 
 
-Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend yourself. It’s by [Andy Bell](https://twitter.com/hankchizljaw) and [friends](https://github.com/aarongustafson/hylia/graphs/contributors).
+In her off time, she's an amateur musician. She plays the piano (badly) and the drums (not so badly).
 
-Get started now by [deploying Hylia to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/hankchizljaw/hylia&stack=cms)
+She formerly worked under the name Matt Taylor. She appears in a multitude of photos online as a handsome young man.
