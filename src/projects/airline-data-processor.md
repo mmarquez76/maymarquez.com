@@ -19,7 +19,7 @@ The scenario seemed simple: read some airline data from one place, do some fancy
 
 The hard part: The data updates every single hour, and whatever solution I came up with had to be able to process hundreds of gigabytes and millions of records within that hour. Also, the data source is written in C++, but this solution is in C#.
 
-> I would have saved so much development time if, instead of fighting against the limitations of C# for low-level C++ interop, I'd just used C++ instead
+> I would have saved so much development time if, instead of fighting against the limitations of C# for low-level C++ interop, I'd just used C++ instead.
 
 Imagine a freeway. Now imagine that freeway has to be somehow engineered to handle tens of thousands of cars trying to get on every hour and be able to provide the throughput to allow all those cars to make their trip before the next hour's traffic rush. Imagine this freeway isn't just a straight road; it has tolls and branching exits. Now imagine this freeway has two different toll standards, FasTrak on the on-ramps and SunPass on the off-ramps.
 
@@ -38,7 +38,7 @@ By using fixed-size buffers, I was able to make every field in each of the dozen
 In the end, I was able to get the project working and processing all the data in under thirty minutes, easily meeting the hourly cutoff. This had several benefits:
 
 * Since the new data processor received data from a federated data server, it has nearly no downtime. The previous tool used for this purpose read directly from the same data files as the server, which caused regular downtime (nearly twenty minutes out of the hour) whenever the server had to update the data every hour.
-* The new data processor sent the processed data directly to a MySQL database, which is much more flexible and easy to work with than the previous bespoke client.
+* The new data processor sent the processed data directly to a MySQL database, which is much more flexible and easy to work with than the previous, bespoke client.
 
 If there's one thing I learned from this project, it's the importance of using the right tool for the job. I would have saved so much development time if, instead of fighting against the limitations of C# for low-level C++ interop, I'd just used C++ instead.
 
