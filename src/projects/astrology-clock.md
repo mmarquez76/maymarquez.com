@@ -1,5 +1,5 @@
 ---
-layout: layouts/post.njk
+layout: layouts/project.njk
 title: Astrology Clock
 metaTitle: Astrology Clock
 metaDesc: How the clock was made.

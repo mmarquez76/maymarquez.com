@@ -4,8 +4,8 @@ title: May Márquez is a developer.
 metaTitle: May Márquez
 metaDesc: She specializes in optimization problems, parallel computing, and
   snazzy websites like these.
-postsHeading: Projects
-archiveButtonText: See all projects
+projectsHeading: Projects
+projectsButtonText: See all projects
 socialImage: /images/may.png
 ---
 She specializes in backend optimization problems, parallel computing, and snazzy websites like these. She has a master's degree in computer science from Florida International University. She's proficient in a few different programming languages and frameworks (including, [unfortunately,](https://www.destroyallsoftware.com/talks/wat) JavaScript). 

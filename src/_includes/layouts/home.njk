@@ -7,13 +7,13 @@
 {% endset %}
 
 {# Post list content #}
-{% set postListHeading = postsHeading %}
-{% set postListItems = collections.postFeed %}
+{% set postListHeading = projectsHeading %}
+{% set postListItems = collections.projectFeed %}
 
-{# Archive link #}
-{% if postListItems.length < collections.posts.length %} 
-  {% set paginationNextText = archiveButtonText %}
-  {% set paginationNextUrl = '/archive' %}
+{# Projects link #}
+{% if postListItems.length < collections.projects.length %} 
+  {% set paginationNextText = projectsButtonText %}
+  {% set paginationNextUrl = '/projects' %}
 {% endif %}
 
 {% block content %}
