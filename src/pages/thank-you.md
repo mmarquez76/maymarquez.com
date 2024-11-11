@@ -1,5 +1,5 @@
 ---
-title: Thank you
+title: Message received.
 permalink: /thank-you/index.html
 ---
-Thanks for contacting me! I'll get back to you soon.
+Thanks for leaving me a message! I will respond to your email address as soon as possible.
