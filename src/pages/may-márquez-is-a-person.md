@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: About Me
-permalink: ""
+permalink: /about-me
 metaTitle: May Márquez is a person.
 metaDesc: She specializes in software design problems, parallel computing,
   hackathon organizing, and IT infrastructure.
