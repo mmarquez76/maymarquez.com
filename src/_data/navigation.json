@@ -6,6 +6,10 @@
       "external": false
     },
     {
+      "text": "About Me",
+      "url": "/about-me"
+    },
+    {
       "text": "Projects",
       "url": "/projects"
     },
