@@ -2,11 +2,11 @@
   "showThemeCredit": false,
   "name": "May Márquez",
   "shortDesc": "Have some extra cash? Donate to [The Trevor Project](https://give.thetrevorproject.org/give/63307/#!/donation/checkout) and help save LGBTQ lives.",
-  "url": "https://maymarquez.com",
-  "authorEmail": "maymiami20@gmail.com",
+  "maxProjectsPerPage": 5,
+  "url": "https://www.maymarquez.com",
+  "authorEmail": "hello@maymarquez.com",
   "authorHandle": "",
   "authorName": "May Márquez",
   "enableThirdPartyComments": false,
-  "faviconPath": "/images/may.png",
-  "maxProjectsPerPage": 5
+  "faviconPath": "/images/may.png"
 }
