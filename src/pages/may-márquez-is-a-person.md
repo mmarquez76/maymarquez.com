@@ -1,14 +1,12 @@
 ---
 layout: layouts/page.njk
-title: About Me
+title: May Márquez is a person.
 permalink: /about-me/index.html
-metaTitle: May Márquez is a person.
+metaTitle: About Me - May Márquez
 metaDesc: She specializes in software design problems, parallel computing,
   hackathon organizing, and IT infrastructure.
 socialImage: /images/may.png
 ---
-# May Márquez is a person.
-
 She specializes in software design problems, parallel computing, hackathon organizing and IT infrastructure. She has a master's degree in computer science from Florida International University and is adept in a few different programming languages and frameworks (including, [unfortunately,](https://www.destroyallsoftware.com/talks/wat) JavaScript). She has tried (and failed) to learn NixOS *at least* twice.
 
 She was previously president of [INIT](https://www.weareinit.org/), a grassroots community organization focusing on tech education and professional development, where she helped organize *ShellHacks*, Florida's Largest Hackathon™. She has since volunteered with nearly a dozen other hackathons across North America, including by hosting workshops and talks on public speaking, professional development, GitHub, C++, and Linux.
